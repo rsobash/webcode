@@ -124,7 +124,7 @@ function loadImages() {
 // SPLIT "f" STRING FROM URL
 $field_parts = explode("_", $field);
 
-$fields_start_nonzero = array('afhail');       # these fields don't start at forecast hour 0, so dont show hour 0 rollover
+$fields_start_nonzero = array('afhail');       # these fields dont start at forecast hour 0, so dont show hour 0 rollover
 $fields_accum         = array('snowacc_mean'); # these fields have varying accum period (so filenames will be e.g. f007-f012,f013-f018,etc)
 $fields_running       = array('hmuh_max');     # these fields start accum at (so filenames will be e.g. f001-f006, f001-f048,etc)
 
